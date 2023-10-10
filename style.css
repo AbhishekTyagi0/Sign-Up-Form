@@ -4,12 +4,36 @@
     box-sizing: border-box;
 }
 
-h1{
-
-    color: blue;
-}
-
-img{
+.img1{
     width: 40vw;
-    height: 93vh;
+    height: 100vh;
+    position: relative;
+    background: url(bg-img.jpg) no-repeat center/cover;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
+
+.img1 > h3{
+
+    color: rgb(130, 128, 128);
+    font-size: 12px;
+    margin-right: 25px;
+}
+
+.page-name{
+
+    position: absolute;
+    top: 10rem;
+    background-color: #eeee;
+    width: 40vw;
+    height: 6rem;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 43px;
+    color: rgb(40, 9, 219);
+}
+
+
