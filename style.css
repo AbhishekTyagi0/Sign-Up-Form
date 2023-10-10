@@ -40,8 +40,75 @@ body{
     font-size: 43px;
     color: rgb(40, 9, 219);
 }
-.container2{
+
+.part1{
+    
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: 30px;
 }
 
+.part1>p{
+
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.part2{
+    padding: 30px;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 6px 16px -8px black;
+    background-color: rgb(240, 242, 244);
+    justify-content: space-evenly;
+    
+}
+
+part2>h3{
+    height: 10px;
+}
+
+form{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px;
+
+}
+
+.form-items>input{
+
+    width: 12rem;
+    height: 1.5rem;
+    display: flex;
+
+}
+
+.submit-button{
+
+    position: absolute;
+    top: 70vh;
+}
+
+.submit-button>button{
+    
+    
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: skyblue;
+    color: darkblue;
+}
+
+.part3{
+    padding: 41px;
+    margin: 3rem 0;
+    height: 18vh;
+}
 
